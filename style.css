@@ -58,16 +58,25 @@ a {
     top: 0;
     left: 0;
     padding: 20px 30px;
-    display: flex;
+    
 }
 
-.logo-and-links {
-   
+.list-profile{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
 }
 
 .profile {
-    flex-direction: column;
-    justify-content: flex-end;
+    position: fixed;
+    bottom: 110px;
+    left:10px
+
+}
+
+.logo {
+   padding-bottom: 20px;
+   width: 150px;
 }
 
 /* utility */
@@ -81,7 +90,6 @@ a {
 }
 
 /* main */  
-
 /* sezione 1 */  
 .main-content {
     padding-left: 230px;
